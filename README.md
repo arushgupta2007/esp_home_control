@@ -24,5 +24,5 @@ What you need:
 * 1 x Plug
 * 1 x Soldering Iron
 * 2 m Soldering wire
-* Jumper Wires
 * 1 x Perf Board (small)
+* Jumper Wires
