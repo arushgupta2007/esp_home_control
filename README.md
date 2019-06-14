@@ -1,4 +1,4 @@
-# esp_home_control
+# Home Automation with Nodemcu ESP8266
 Home automation with circuit diagram and code
 
 ESP8266 with some electronics gives you control over your lights, fans or any electrical appliances leaving you resting on your sofa :).
