@@ -7,7 +7,7 @@ ESP8266 with some electronics gives you control over your lights, fans or any el
 
 ![Circuit](circuit.png)
 
-
+## Instructions
 What you need:
 
 * 1 x Nodemcu ESP8266
