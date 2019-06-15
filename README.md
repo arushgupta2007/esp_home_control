@@ -37,6 +37,8 @@ AC Current is a sine wave ranging from x to -x, when the current is zero it is c
  To Detect Zero Crossing we will use a Full bridge Rectifier, PC817 optocoupler, 2 33k ohm ressistors and the D2 pin of the NodeMCU.
  
  Here is the scematics:
+ 
+ 
  ![Circuit](images/circuit_zcd.png)
  
  
