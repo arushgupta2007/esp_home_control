@@ -59,5 +59,12 @@ void zcd() {
 }
  ```
  
- The input at D2 will be a trapezoidal wave (DC) with peak value of the voltage given to PIN4 at PC817, in this case it is 3.3v . We detect the LOW value using NodeMCU then Serial.println("NOW"). It should happen 100 times a second. 
+The input at D2 will be a trapezoidal wave (DC) with peak value of the voltage given to PIN4 at PC817, in this case it is 3.3v . We detect the LOW value using NodeMCU then Serial.println("NOW"). It should happen 100 times a second. 🎉 Zero Cross Detection is over.
+ 
+ 
+ 
+### Firing The Triac
+
+
+#### First Test
  
