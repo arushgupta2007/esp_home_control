@@ -42,3 +42,20 @@ AC Current is a sine wave ranging from x to -x, when the current is zero it is c
  ![Circuit](images/circuit_zcd.png)
  
  
+ And Code:
+ 
+ ```C
+ void setup() {
+  Serial.begin(115200);
+  pinMode(D2, INPUT);
+  attachInterrupt(digitalPinToInterrupt(D2), zcd, FALLING);
+}
+
+void loop() {
+}
+
+void zcd() {
+ Serial.println("Now");
+}
+ ```
+ 
