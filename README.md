@@ -67,4 +67,10 @@ The input at D2 will be a trapezoidal wave (DC) with peak value of the voltage g
 
 
 #### First Test
- 
+
+Ok now lets see if our triacs and MOC3020 optocoupler works.
+We will just modify our circuit a bit and change a bit of our code.
+
+Schematics:
+
+![Circuit](images/circuit_zcd_triac.png)
