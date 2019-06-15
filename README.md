@@ -65,8 +65,8 @@ The input at D2 will be a trapezoidal wave (DC) with peak value of the voltage g
  
 ### Firing The Triac
 
-Ok now lets see if our triacs and MOC3020 optocoupler works.
-We will just modify our circuit a bit and change a bit of our code.
+Now, lets see if our triacs and MOC3020 optocoupler works.
+We will just modify our circuit and a bit of our code.
 
 Schematic:
 
@@ -94,12 +94,11 @@ void zcd() {
   digitalWrite(D7, LOW);
 }
 ```
-__A Triac stays conductive till the polarity of the current changes___. So in this example we fire the triac after the zero cross with a delay of 2000 microseconds which, according to my test gives full power to my load. Changing the *delayto* from 2000 - 9000 can control power. Test this in both of the triacs and MOC3020. What is left is to add cloud functionality so that we can control the power from any where in the world (where there is Internet connection) and adding a two way switch.
+__A triac stays conductive till the polarity of the current changes___. In this example we fire the triac after the zero cross with a delay of 2000 μs which, according to my test gives full power to my load. Changing the *delayto* from 2000 μs to 9000 μs, we can control power. Test this in both of the triacs and MOC3020. What is left is to add cloud functionality so that we can control the power from any where in the world (where there is Internet connection) and adding a two way switch.
 
 ### Cloud functionality
 
-For Cloud Services I use **Firebase** by Google. Start a project at Firebase. 
-I will be using Firebase Realtime Database. So the structure goes like this :
+For Cloud Services I use **Firebase** by Google. I will be using Firebase Realtime Database. Start a project at Firebase. So the structure goes like this :
 
 ```JSON
 fireapp-65f2d :
