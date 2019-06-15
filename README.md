@@ -98,7 +98,7 @@ __A triac stays conductive till the polarity of the current changes___. In this 
 
 ### Cloud functionality
 
-For Cloud Services I use **Firebase** by Google. I will be using Firebase Realtime Database. Start a project at Firebase. So the structure goes like this :
+For Cloud Services I use **Firebase** by Google. I will be using Firebase Realtime Database. Start a project at Firebase. The structure goes like this :
 
 ```JSON
 fireapp-65f2d :
@@ -122,7 +122,7 @@ fireapp-65f2d :
         how_many_rooms: 1
         room_list: "none {Room_name}"
 ```
-There can be many rooms in the username and many device in a room. 
+There can be many rooms in the username and many devices in a room. 
 
 To connect the NodeMCU to Firebase I use [this library](https://github.com/mobizt/Firebase-ESP8266) by Mobizt because it does not require a fingerprint to connect to Firebase.
 
