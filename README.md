@@ -9,27 +9,27 @@ ESP8266 with some electronics gives you control over your lights, fans, or any e
 
 ## Instructions
 
-What you need:
+__What you need:__
 
 * 1 x Nodemcu ESP8266
 * 1 x ACS712 5A
-* 1 x Full Bridge Rectifier / 4 x IN4007 diode
-* 1 x PC817 optocoupler
-* 2 x MOC3020 optocoupler / 2 x MOC3021 optocoupler
-* 2 x BTA16 triac
-* 2 x 33k ohm resistor
-* 2 x 100 ohm resistor
-* 4 x 1k ohm resistor
-* 1 x switch
+* 1 x Full Bridge Rectifier / 4 x IN4007 Diode
+* 1 x PC817 Optocoupler
+* 2 x MOC3020 Optocoupler / 2 x MOC3021 Optocoupler
+* 2 x BTA16 Triac
+* 2 x 33k ohm Resistor
+* 2 x 100 ohm Resistor
+* 4 x 1k ohm Resistor
+* 1 x Switch
 * 1 x Bulb Holder
 * 1 x Plug
 * 1 x Soldering Iron
-* 2 m Soldering wire
+* 2 m Soldering Wire
 * 1 x Perf Board (small)
 * Jumper Wires
 
 ### Zero Cross Detection
-AC Current is a sine wave ranging from x to -x, when the current is zero it is called *ZERO CROSSING*. If we can control a switch very fast(~ 10ms) to cut the sine wave, we can control the power. The Triac will be a suitable component to do so. If you are like me you will get 50Hz, so a sine wave will last 20ms and every zero crossing will occur every 10ms.  After we detect the zero crossing, we give a delay of 2000 microsenconds to 9000 microseconds (results may vary) then fire the triac, we can cut the sinwave accurately and control power given to the load.
+AC Current is a sine wave ranging from x to -x. When the current is zero it is called *ZERO CROSSING*. If we can control a switch very fast(~ 10ms) to cut the sine wave, we can control the power. The triac will be a suitable component to do so. If you are like me you will get 50Hz, so a sine wave will last 20ms and every zero crossing will occur every 10ms.  After we detect the zero crossing, we give a delay of 2000 μs to 9000 μs (results may vary depending on the quality of the triac). Then, fire the triac, which can cut the sine wave accurately and control power given to the load.
 
 <img src="images/sine_wave.png" width="500" hieght="300"/> 
  - Credit goes to ElectroNoobs Youtube
