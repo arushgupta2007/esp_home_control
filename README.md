@@ -5,7 +5,7 @@ ESP8266 with some electronics gives you control over your lights, fans or any el
 
 ## Circuit diagram:
 
-![Circuit](circuit.png)
+![Circuit](images/circuit.png)
 
 ## Instructions
 
