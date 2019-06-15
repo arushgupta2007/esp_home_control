@@ -7,6 +7,8 @@ ESP8266 with some electronics gives you control over your lights, fans or any el
 
 ![Circuit](circuit.png)
 
+***
+
 ## Instructions
 What you need:
 
@@ -26,3 +28,4 @@ What you need:
 * 2 m Soldering wire
 * 1 x Perf Board (small)
 * Jumper Wires
+
