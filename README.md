@@ -29,7 +29,11 @@ What you need:
 * Jumper Wires
 
 ### Zero Cross Detection
-AC Current is a sine wave ranging from x to -x, when the current is zero it is called *ZERO CROSSING*. If we can control a switch very fast(~ 10ms) to cut the sine wave, we can control the power. The Triac will be a suitable component to do so. After we detect the zero crossing, we give a delay of 2000 microsenconds to 9000 microseconds then fire the triac we can cut the sinwave accurately.
+AC Current is a sine wave ranging from x to -x, when the current is zero it is called *ZERO CROSSING*. If we can control a switch very fast(~ 10ms) to cut the sine wave, we can control the power. The Triac will be a suitable component to do so. After we detect the zero crossing, we give a delay of 2000 microsenconds to 9000 microseconds then fire the triac, we can cut the sinwave accurately.
 
 <img src="images/sine_wave.png" width="500" hieght="300"/> 
  - Credit goes to ElectroNoobs Youtube
+ 
+ To Detect Zero Crossing we will use a Full bridge Rectifier, PC817 optocoupler, 2 33k ohm ressistors and the D2 pin of the NodeMCU.
+ 
+ 
