@@ -94,7 +94,7 @@ void zcd() {
   digitalWrite(D7, LOW);
 }
 ```
-__A Triac stays conductive till the polarity on the current changes___. So in this example we fire the triac after the zero cross with a delay of 2000 microseconds which, according to my test gives full power to my load. Changing the *delayto* from 2000 - 9000 can control power. Test this in both of the triacs and MOC3020. What is left is to add cloud functionality so that we can control the power from any where in the world (where there is Internet connection) and adding a two way switch.
+__A Triac stays conductive till the polarity of the current changes___. So in this example we fire the triac after the zero cross with a delay of 2000 microseconds which, according to my test gives full power to my load. Changing the *delayto* from 2000 - 9000 can control power. Test this in both of the triacs and MOC3020. What is left is to add cloud functionality so that we can control the power from any where in the world (where there is Internet connection) and adding a two way switch.
 
 ### Cloud functionality
 
